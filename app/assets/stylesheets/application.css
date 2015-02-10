@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap"; 
+
+require_self
+
+
+
+<style>
+ body {background-colour:lightgrey}
+.centre
+</style>
