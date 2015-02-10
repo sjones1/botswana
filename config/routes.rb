@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :events
+=======
+  get 'welcome/index'
+>>>>>>> 44691878291a9f487bb362748cf73dee90fcc871
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
