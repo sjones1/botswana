@@ -16,21 +16,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 
+require_self
 
 
-body{ background-color: silver;} 
-p { color: blue; } 
-h3{ color: white; }
 
-
-#left {
-     line-height:30px;
-     background-colour:#eeeeee;
-     height:600px;
-     width:200px;
-     float:left;
-     border-right:2px solid;
-     border-color: grey;
-     padding:5px;
-}
-
+<style>
+ body {background-colour:lightgrey}
+.centre
+</style>
