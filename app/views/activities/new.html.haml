@@ -1,0 +1,8 @@
+%h1{ :style=>"color: blue;"} New activity
+
+=form_for :Activity do |a|
+ %h2=a.label :"Activity title:"
+ %p=a.text_field :activity
+ %h2=a.label :"Description:"
+ %p=a.text_area :description, style: "width: 600px; height: 300px;"
+=submit_tag "Create"

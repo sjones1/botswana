@@ -23,12 +23,12 @@ p { color: blue; }
 h3{ color: white; }
 
 
-#left {
+#layoutleft {
      line-height:30px;
-     background-colour:#eeeeee;
-     height:600px;
+     background-colour:#eeeeee;    
      width:200px;
      float:left;
+     height:100%;
      border-right:2px solid;
      border-color: grey;
      padding:5px;

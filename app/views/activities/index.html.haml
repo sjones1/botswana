@@ -1,0 +1,14 @@
+%h1 Activities
+%h2=link_to 'New', new_activity_path
+%table
+  %thead
+    %tr
+      %th
+      %th
+      %th
+      
+  %tbody
+  - @activities.each do |a|
+    %tr
+      %td= link_to 'Edit'
+      %td= link_to 'Destroy', :method => :delete
