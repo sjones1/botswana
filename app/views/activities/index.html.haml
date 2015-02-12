@@ -10,5 +10,5 @@
   %tbody
   - @activities.each do |a|
     %tr
-      %td= link_to 'Edit'
+      %td= link_to 'Edit', :method => :update
       %td= link_to 'Destroy', :method => :delete
